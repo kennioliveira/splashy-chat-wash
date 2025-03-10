@@ -8,6 +8,7 @@ import { Textarea } from "@/components/ui/textarea";
 import { useToast } from "@/hooks/use-toast";
 import { Card, CardContent } from "@/components/ui/card";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
+import FeedbackForm from "./FeedbackForm";
 
 const Contact = () => {
   const { toast } = useToast();
@@ -166,8 +167,7 @@ const Contact = () => {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
-            className="md:col-span-2"
-            id="agendamento"
+            className="md:col-span-2 space-y-8"
           >
             <Card className="overflow-hidden shadow-lg border-0">
               <CardContent className="p-0">
@@ -363,6 +363,15 @@ const Contact = () => {
                 </form>
               </CardContent>
             </Card>
+
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6, delay: 0.2 }}
+            >
+              <FeedbackForm />
+            </motion.div>
           </motion.div>
         </div>
       </div>
