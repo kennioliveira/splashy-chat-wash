@@ -1,3 +1,4 @@
+
 import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import Navbar from "@/components/Navbar";
@@ -55,7 +56,7 @@ const Index = () => {
               transition={{ duration: 2, repeat: Infinity }}
               className="text-xl font-medium text-car-800"
             >
-              LavaJato<span className="text-car-500">Mobile</span>
+              Lava Jato <span className="text-car-500">do Kenni</span>
             </motion.h1>
           </motion.div>
         </div>

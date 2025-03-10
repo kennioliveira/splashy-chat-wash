@@ -21,7 +21,7 @@ const Footer = () => {
               <div className="font-bold text-2xl tracking-tight">
                 <span className="text-white">Lava</span>
                 <span className="text-car-300">Jato</span>
-                <span className="text-car-200">Mobile</span>
+                <span className="text-car-200">do Kenni</span>
               </div>
             </div>
             <p className="text-gray-300 mb-4">
@@ -102,7 +102,7 @@ const Footer = () => {
               </li>
               <li className="flex items-start">
                 <Mail className="h-5 w-5 text-car-300 mr-3 mt-1 flex-shrink-0" />
-                <span className="text-gray-300">contato@lavajatomobile.com.br</span>
+                <span className="text-gray-300">contato@lavajatodokenni.com.br</span>
               </li>
               <li className="flex items-start">
                 <MapPin className="h-5 w-5 text-car-300 mr-3 mt-1 flex-shrink-0" />
@@ -116,7 +116,7 @@ const Footer = () => {
         
         <div className="border-t border-car-700 pt-8 mt-8 text-center md:flex md:justify-between md:text-left">
           <p className="text-gray-400 text-sm mb-4 md:mb-0">
-            &copy; {currentYear} LavaJato Mobile. Todos os direitos reservados.
+            &copy; {currentYear} Lava Jato do Kenni. Todos os direitos reservados.
           </p>
           <div className="flex space-x-4 justify-center md:justify-end">
             <a href="#" className="text-gray-400 hover:text-white text-sm">

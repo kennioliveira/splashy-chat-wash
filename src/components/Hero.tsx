@@ -29,7 +29,7 @@ const Hero = () => {
         <div
           className="absolute inset-0 bg-center bg-cover hero-parallax"
           style={{
-            backgroundImage: "url('https://source.unsplash.com/1470071459604-3b5ec3a7fe05')"
+            backgroundImage: "url('https://images.unsplash.com/photo-1520340356584-f9917d1eea6f')"
           }}
         />
         <div className="absolute inset-0 bg-gradient-overlay" />
@@ -67,7 +67,7 @@ const Hero = () => {
             transition={{ duration: 0.6, delay: 0.7 }}
             className="text-lg md:text-xl text-white/80 mb-10 max-w-2xl mx-auto"
           >
-            Nosso serviço de lavagem a domicílio traz conveniência e qualidade profissional
+            O Lava Jato do Kenni traz conveniência e qualidade profissional
             diretamente até você. Economize tempo e tenha seu veículo impecável sem sair de casa.
           </motion.p>
 

@@ -67,7 +67,7 @@ const Navbar = () => {
             >
               <span className="text-car-800">Lava</span>
               <span className="text-car-500">Jato</span>
-              <span className="text-car-300">Mobile</span>
+              <span className="text-car-300">do Kenni</span>
             </motion.div>
           </div>
 
