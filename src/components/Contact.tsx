@@ -1,7 +1,6 @@
-
 import React, { useState } from "react";
 import { motion } from "framer-motion";
-import { Phone, Mail, MapPin, Calendar, Car, User, MessageSquare } from "lucide-react";
+import { Phone, Mail, MapPin, Calendar, Car, User, MessageSquare, Clock, Sparkles } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";

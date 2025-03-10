@@ -1,4 +1,3 @@
-
 import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import Navbar from "@/components/Navbar";
@@ -9,9 +8,6 @@ import Testimonials from "@/components/Testimonials";
 import Contact from "@/components/Contact";
 import Chatbot from "@/components/Chatbot";
 import Footer from "@/components/Footer";
-
-// Add framer-motion dependency
-<lov-add-dependency>framer-motion@latest</lov-add-dependency>
 
 const Index = () => {
   const [isLoading, setIsLoading] = useState(true);
